@@ -1,0 +1,41 @@
+<section class="team" id="team">
+    <div class="jawa-container">
+
+      <article class="form__description">
+        <h2 class="form__title">CONTACTO</h2>
+        <p class="form__p">
+          Desde <span class="asterisk">Jawa</span> nos agrada poder proporcionarte la información que necesitas. Estaremos encantadas de recibir noticias tuyas. Para cualquier consulta o sugerencia puedes completar el siguiente formulario y nos pondremos en contacto contigo. Gracias.
+        </p>
+        <p class="form__subp">
+            Todos los campos marcados con <span class="asterisk">*</span> son obligatorios
+        </p>
+        </article>
+
+        <article class="form__description item2">
+
+          <form action="https://formspree.io/f/meqvokob" method="POST" id="form" class="form" autocomplete="off" onSubmit="alert('Gracias por escribirnos! Pulsa aceptar para confirmar el envío de tu consulta y nosotras contactaremos contigo =)'); return true;">
+            
+              <label for="name" class="label">Nombre completo <span class="asterisk">*</span></label>
+              <input type="text" id="name" name="name" placeholder="Nombre..." class="input" required>
+
+              <div class="form-flex">
+                <div class="form-flex__item--1">
+                  <label for="email" class="label">Email <span class="asterisk">*</span></label>
+                  <input type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com" class="input" required>
+                </div>
+                <div class="form-flex__item--2">
+                  <label for="telephone" class="label">Teléfono</label>
+                  <input type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789" class="input">
+                </div>
+              </div>
+
+              <label for="message" class="label">Mensaje <span class="asterisk">*</span></label>
+              <textarea id="message" class="message" cols="80" name="message" rows="8" placeholder="¿Qué necesitas?" required maxlength="400"></textarea>
+
+              <label for="submit"></label>
+              <input type="submit" name="submit" id="submit" value="Enviar" class="button">
+           
+          </form>
+        </article>
+    </div>
+</section>

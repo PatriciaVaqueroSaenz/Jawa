@@ -1,0 +1,129 @@
+.form__description {
+  height: auto;
+  background-color: $colorwhite;
+  padding: 1.875rem 0;
+  box-sizing: border-box;
+
+  @media (min-width: 768px) {
+    width: 50%;
+    margin: auto;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+  }
+
+  @media (min-width: 1200px) {
+    width: 50%;
+    margin: auto;
+    padding-top: 2.8125rem;
+    padding-bottom: 1.875rem;
+  }
+}
+.form__title {
+  width: 100%;
+  height: 2.8125rem;
+  margin: auto;
+  font-family: $font-title;
+  font-size: 1.5rem;
+  line-height: 2.813rem;
+  text-align: center;
+  color: $colorlightaqua;
+}
+
+.form__p {
+  width: 100%;
+  height: auto;
+  margin-top: 0.9375rem;
+  font-family: $font-text;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: $color-text;
+}
+.form__subp {
+  width: 100%;
+  height: auto;
+  margin-top: 0.9375rem;
+  font-family: $font-text;
+  font-size: 0.75rem; 
+  line-height: 1.5rem;
+  text-align: center;
+  color: $color-text;
+}
+
+.form__description.item2{
+  padding-top: 1.875rem;
+}
+
+.form {
+  font-family: $font-text;
+  color: $color-text;
+  box-sizing: border-box;
+}
+.label {
+  display: block;
+  margin: 0.4375rem 0 0.8125rem;
+}
+.input {
+  font-family: $font-text;
+  display: block;
+  height: 2.8125rem;
+  width: 100%;
+  border: solid 1px #b8b8b9;
+  box-sizing: border-box;
+  padding-left: 0.9375rem;
+}
+.asterisk {
+  color: $colorlightaqua;
+}
+
+.message {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: $font-text;
+  color: $color-text;
+  padding-top: 0.6875rem;
+  padding-left: 0.9375rem;
+}
+
+.button {
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+  height: 2.8125rem;
+  width: 100%;
+  color: $colorwhite;
+  font-family: $font-text;
+  font-weight: 800;
+  background-color: $color-highlight;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  border: none;
+  transition: background-color ease 0.5s, border ease 0.2s,box-shadow ease 0.6s;
+
+  &:hover{
+    background-color: $colorlightaqua;
+    border:solid 2px $color-highlight;
+    box-shadow: 5px 2px 5px #b8b8b9;
+  }
+  
+  @media (min-width: 768px) {
+    width: 50%;
+    transform: translate(100%,0);
+    margin-bottom: 1.875rem;
+  }
+  @media (min-width: 1200px) {
+    margin-bottom: 3.75rem;
+  }
+}
+
+.form-flex{
+  @media (min-width: 1200px) {
+  display: flex;
+  justify-content: space-between;
+  }
+}
+.form-flex__item--1{
+  @media (min-width: 1200px) {
+  min-width: 65%;
+  margin-right: 2.8125rem;
+  }
+}

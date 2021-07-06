@@ -1,0 +1,32 @@
+@import "core/reset";
+@import "core/variables";
+@import "layout/header";
+@import "layout/hero";
+@import "layout/team";
+@import "layout/adalabers";
+@import "layout/footer";
+@import "components/fontawesome";
+@import "layout/hero_contact";
+@import "components/form";
+
+@media (min-width: 1200px) {
+  .jawa-container {
+    margin: 0 8.625rem;
+  }
+  /*--4----------------------------*/
+
+  .pic {
+    min-width: 278px;
+    min-height: 278px;
+    margin: initial;
+  }
+  .titlewhoweare {
+    width: 100%;
+    margin-top: 2.813rem;
+    margin-bottom: 2.5rem;
+  }
+  .container-adalabersL,
+  .container-adalabersR {
+    align-items: flex-start;
+  }
+}
